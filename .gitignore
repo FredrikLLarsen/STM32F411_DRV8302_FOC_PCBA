@@ -1,0 +1,21 @@
+﻿# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build/Temp
+dist/
+build/
+bin/
+obj/
+*.log
+
+# Python (example; remove if not needed)
+__pycache__/
+*.pyc
+
+# Node (example; remove if not needed)
+node_modules/

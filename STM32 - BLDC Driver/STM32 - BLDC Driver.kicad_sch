@@ -1,0 +1,232 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "af401572-9e69-4105-be6c-dc0e059c4c83")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 172.72 25.4)
+		(size 41.91 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "111bd3ce-c6b2-4015-9424-1ad3f51af2b7")
+		(property "Sheetname" "Sensors"
+			(at 172.72 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 172.72 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 19.05)
+		(size 36.83 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8487c7be-b64e-4b28-9c87-ed0f8baa3838")
+		(property "Sheetname" "Power_Input"
+			(at 22.86 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 22.86 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 22.86 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 19.05)
+		(size 36.83 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "932b56af-cff9-4d08-bf9e-c03eb6bf5fdf")
+		(property "Sheetname" "DRV8302DCAR"
+			(at 69.85 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRV8302DCAR.kicad_sch"
+			(at 69.85 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 52.07)
+		(size 35.56 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fb92893-7f1a-4a40-a454-0b2d43fbb7af")
+		(property "Sheetname" "STM32G"
+			(at 24.13 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32G.kicad_sch"
+			(at 24.13 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 73.66)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb4e1e83-0779-4c27-a982-fee0cbf88e6f")
+		(property "Sheetname" "Mosfets & Encoder"
+			(at 77.47 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLDC MOSFETS.kicad_sch"
+			(at 77.47 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
