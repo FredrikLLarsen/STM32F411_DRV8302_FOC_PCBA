@@ -1346,26 +1346,6 @@
 		)
 		(uuid "0016adc3-a9c5-4052-b066-5d6ed9785aa3")
 	)
-	(text "One for close to each mosfet pair"
-		(exclude_from_sim no)
-		(at 235.712 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "00aada10-f7ec-4b64-8aa1-80e9a1b38b3e")
-	)
-	(text "One for close to each mosfet pair"
-		(exclude_from_sim no)
-		(at 259.588 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b4aa3c4b-cebe-4b33-a1dd-1b1290e0576a")
-	)
 	(junction
 		(at 123.19 54.61)
 		(diameter 0)
@@ -1391,30 +1371,6 @@
 		(uuid "563968da-83bb-42d1-a33a-3a339d55075f")
 	)
 	(junction
-		(at 234.95 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70c3ba31-a147-44cb-93f4-73877928e814")
-	)
-	(junction
-		(at 242.57 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75ef41c0-c7d5-4e24-bb49-a5d580b64e5a")
-	)
-	(junction
-		(at 259.08 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9977b140-020a-42f4-94b0-1e6293d3cf43")
-	)
-	(junction
-		(at 220.98 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2a78d7a-a76c-4f5e-9868-e36dbd0aa279")
-	)
-	(junction
 		(at 116.84 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1435,16 +1391,6 @@
 	(no_connect
 		(at 74.93 64.77)
 		(uuid "e097e86c-6b05-4646-b945-3f8b93119f6a")
-	)
-	(wire
-		(pts
-			(xy 215.9 43.18) (xy 220.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1457c4ea-ab05-4a36-82c9-aece9834f38b")
 	)
 	(wire
 		(pts
@@ -1478,16 +1424,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 74.93) (xy 242.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "311262c3-6394-4d37-83e7-8ffcb558d13d")
-	)
-	(wire
-		(pts
 			(xy 130.81 34.29) (xy 130.81 40.64)
 		)
 		(stroke
@@ -1515,16 +1451,6 @@
 			(type default)
 		)
 		(uuid "538c8778-3b16-4613-b95f-9a1e5bd27794")
-	)
-	(wire
-		(pts
-			(xy 220.98 43.18) (xy 234.95 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604deb40-3757-425f-9d37-842ad498bb92")
 	)
 	(wire
 		(pts
@@ -1595,16 +1521,6 @@
 			(type default)
 		)
 		(uuid "e0c69d10-4a7e-4ee7-a5c5-bf284fc730d7")
-	)
-	(wire
-		(pts
-			(xy 242.57 74.93) (xy 259.08 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebcb7372-e489-4fc3-8145-be76e8a03c7e")
 	)
 	(wire
 		(pts
@@ -1792,50 +1708,6 @@
 			)
 		)
 	)
-	(global_label "MOS2_NTC"
-		(shape input)
-		(at 215.9 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6b38c0b-c0dd-4f24-b3f5-e84f4e7c8888")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.1782 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MOS3_NTC"
-		(shape input)
-		(at 237.49 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc87c510-81ca-4475-be72-a392e3662638")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.7682 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IMU_INT2_ACCEL"
 		(shape input)
 		(at 110.49 69.85 0)
@@ -1926,73 +1798,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 242.57 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "159fd5e5-4bb8-4de7-8995-689c3f6a97d5")
-		(property "Reference" "TP22"
-			(at 245.11 76.9619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 245.11 79.5019 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 242.57 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84c40452-954e-445e-8e7f-42e91f5fefd7")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 74.93 62.23 90)
 		(unit 1)
@@ -2054,146 +1859,6 @@
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 234.95 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24ab48f6-c082-4b65-8200-38e0a835fd5a")
-		(property "Reference" "R34"
-			(at 237.49 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 237.49 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.172 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 234.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96c0a07c-92ee-49c6-9740-2ea97edc82bf")
-		)
-		(pin "1"
-			(uuid "d7a2cf1b-6982-48a8-86c7-c23a2c20b09e")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 259.08 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f112acc-1f52-4f00-8aa5-7212eea28122")
-		(property "Reference" "R35"
-			(at 261.62 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 261.62 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.302 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 259.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3c11d5b-08e3-4936-845b-b2da9f3645e3")
-		)
-		(pin "1"
-			(uuid "0ec0f70c-f406-4664-b563-8582435ed51c")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -2266,209 +1931,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 220.98 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39a7416e-22dc-412f-8d8e-5db73531934a")
-		(property "Reference" "TP21"
-			(at 223.52 45.2119 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 223.52 47.7519 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 220.98 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "950595f5-5276-4697-9921-cba5d0ec747f")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "TP21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 234.95 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c6b782a-ae14-45a6-8dbe-3f9a1b59eacc")
-		(property "Reference" "#PWR073"
-			(at 234.95 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 234.95 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 234.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aee87390-fa52-4f35-ac13-e46bdbfd7e76")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 259.08 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e3290e0-41a3-42b2-9048-c3123cb2b11f")
-		(property "Reference" "TH3"
-			(at 261.62 77.7874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMFB103F3950FANT"
-			(at 261.62 80.3274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 259.08 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26445e44-b576-4528-aa10-c27420e03294")
-		)
-		(pin "1"
-			(uuid "53afdb98-8bc2-4a4c-a4c8-fcb1c01378d3")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "TH3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 130.81 44.45 0)
 		(unit 1)
@@ -2476,8 +1938,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65e5657f-b7c1-406c-b891-b0c46666783f")
+		(uuid "5d1cd314-4b55-4c76-b219-f4fb517dc7a3")
 		(property "Reference" "C45"
 			(at 134.62 43.1799 0)
 			(effects
@@ -2487,8 +1948,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 134.62 45.7199 0)
+		(property "Value" "100nF (C1711)"
+			(at 114.3 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +1957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 131.7752 48.26 0)
 			(effects
 				(font
@@ -2524,10 +1985,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8040122d-f2c7-4475-8fe9-864124f5ed69")
+			(uuid "5d9174a2-484d-443d-8c3f-36db9a4848bb")
 		)
 		(pin "2"
-			(uuid "90f728db-5732-4c6b-9345-5da6ad0e4940")
+			(uuid "12abe8f4-2580-45c9-b3ac-71488af7029a")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
@@ -2689,7 +2150,7 @@
 				)
 			)
 		)
-		(property "Value" "BMI088"
+		(property "Value" "BMI088 (C194919)"
 			(at 92.71 46.99 0)
 			(effects
 				(font
@@ -3068,7 +2529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CMFB103F3950FANT"
+		(property "Value" "CMFB103F3950FANT (C51597)"
 			(at 193.04 47.3074 0)
 			(effects
 				(font
@@ -3077,7 +2538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -3114,72 +2575,6 @@
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
 					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 259.08 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e0e6b47-fafa-4e5f-87b9-1adf5f269481")
-		(property "Reference" "#PWR075"
-			(at 259.08 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 259.08 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 259.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "537f8c96-398c-4546-8bcc-3c4cdcc77c5b")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3319,72 +2714,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba1dc298-6a28-4f64-8f07-e5fd4b5b326a")
-		(property "Reference" "#PWR076"
-			(at 259.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cd06322-702e-40f7-ab40-b0c269ae4361")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 74.93 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3457,7 +2786,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3f1d399-c01a-409c-9fbe-40d2d1b9822c")
 		(property "Reference" "C44"
 			(at 120.65 43.1799 0)
@@ -3468,8 +2796,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 120.65 45.7199 0)
+		(property "Value" "100nF (C1711)"
+			(at 100.33 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +2805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 117.8052 48.26 0)
 			(effects
 				(font
@@ -3514,142 +2842,6 @@
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e08163d5-7bc7-4372-9985-bb4042ba0672")
-		(property "Reference" "#PWR074"
-			(at 234.95 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9114f1a-8bdc-4ffc-8515-d73757458a05")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 234.95 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f78f41d4-eeca-4efc-b921-8ec60a5e2ad0")
-		(property "Reference" "TH2"
-			(at 237.49 46.0374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMFB103F3950FANT"
-			(at 237.49 48.5774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 234.95 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "477df5d1-3237-4c68-80b0-03fd0d2bee4b")
-		)
-		(pin "1"
-			(uuid "0f5a1a9b-ab98-4e20-864d-63bb9d6101e5")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/111bd3ce-c6b2-4015-9424-1ad3f51af2b7"
-					(reference "TH2")
 					(unit 1)
 				)
 			)

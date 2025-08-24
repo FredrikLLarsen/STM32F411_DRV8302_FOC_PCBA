@@ -1932,6 +1932,12 @@
 		(uuid "2ec30dcf-c8b8-4bd6-8e8b-2538a35f2b54")
 	)
 	(junction
+		(at 158.75 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e59924-d51c-44be-97bf-cf4ce73ad620")
+	)
+	(junction
 		(at 30.48 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1974,22 +1980,16 @@
 		(uuid "b4f24186-0ac6-4383-8dc8-24912f90b0e9")
 	)
 	(junction
-		(at 158.75 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7d0e424-4c3d-4e53-a6ef-f6477c418cc8")
-	)
-	(junction
 		(at 44.45 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce27dee4-5ad6-4147-bb76-8688af6ec6d4")
 	)
 	(junction
-		(at 35.56 73.66)
+		(at 33.02 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d006f87e-b6ab-462f-aea9-52355dab3545")
+		(uuid "db306469-7ad3-45a6-b219-4e21d25e0bb2")
 	)
 	(junction
 		(at 58.42 81.28)
@@ -2085,6 +2085,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 73.66) (xy 33.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbaa540-d218-4acd-8af2-726eeb7c93e3")
+	)
+	(wire
+		(pts
 			(xy 107.95 78.74) (xy 107.95 73.66)
 		)
 		(stroke
@@ -2095,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 153.67 78.74)
+			(xy 153.67 78.74) (xy 158.75 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2155,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 78.74) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0354b1-4ef1-4cbc-9d50-7f7c0b21f56b")
+	)
+	(wire
+		(pts
 			(xy 30.48 22.86) (xy 60.96 22.86)
 		)
 		(stroke
@@ -2162,16 +2182,6 @@
 			(type default)
 		)
 		(uuid "872fb773-d5cf-45b9-b36f-eddd871e37ef")
-	)
-	(wire
-		(pts
-			(xy 171.45 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b208fea-58d7-49b1-a6fb-34780caa0fe7")
 	)
 	(wire
 		(pts
@@ -2192,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "91ee4269-00c2-469c-b866-064aeff2d95b")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 44.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd7b91a-9c18-4e1f-8e90-73058b2fed9c")
 	)
 	(wire
 		(pts
@@ -2225,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 81.28) (xy 44.45 81.28)
+			(xy 29.21 81.28) (xy 44.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2252,16 +2272,6 @@
 			(type default)
 		)
 		(uuid "aac81211-2e28-4587-ab6a-b084424b86d7")
-	)
-	(wire
-		(pts
-			(xy 35.56 73.66) (xy 44.45 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adcef933-1aa6-4cb4-80c0-3ca86b147053")
 	)
 	(wire
 		(pts
@@ -2332,16 +2342,6 @@
 			(type default)
 		)
 		(uuid "eee47244-e7d5-4fc0-bb21-182a75b10a2a")
-	)
-	(wire
-		(pts
-			(xy 33.02 73.66) (xy 35.56 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2abbf12-f4fd-4328-9072-ec432f489717")
 	)
 	(wire
 		(pts
@@ -2732,7 +2732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 35.56 77.47 0)
+		(at 29.21 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2740,7 +2740,7 @@
 		(dnp no)
 		(uuid "1a7a0427-e40d-46ac-9d63-722977ed400a")
 		(property "Reference" "C1"
-			(at 39.37 76.1999 0)
+			(at 33.02 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,8 +2748,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C - Low ESR Electrolytic"
-			(at 17.018 84.836 0)
+		(property "Value" "680uF LOW ESR ( C443017 )"
+			(at 20.574 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,8 +2757,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 36.5252 81.28 0)
+		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
+			(at 30.1752 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 77.47 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 35.56 77.47 0)
+			(at 29.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,76 +2794,6 @@
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1aff1466-bf0c-433c-9c17-9476c35282c6")
-		(property "Reference" "R39"
-			(at 161.29 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5Ohm"
-			(at 161.29 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.972 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe19fc0d-802f-460e-a241-69c6d591fcf1")
-		)
-		(pin "1"
-			(uuid "c1a9e8f8-7d95-4e50-9403-e574ddc9082e")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2897,7 +2827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -2976,7 +2906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
 			(at 66.04 26.67 0)
 			(effects
 				(font
@@ -3235,7 +3165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TPSC337K006R0080"
+		(property "Value" "C600568"
 			(at 111.252 86.36 0)
 			(effects
 				(font
@@ -3244,7 +3174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
 			(at 108.9152 86.36 0)
 			(effects
 				(font
@@ -3372,7 +3302,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5Ohm"
+		(property "Value" "5Ohm (C17724)"
 			(at 116.84 71.1199 0)
 			(effects
 				(font
@@ -3381,7 +3311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 112.522 69.85 90)
 			(effects
 				(font
@@ -3640,15 +3570,15 @@
 				)
 			)
 		)
-		(property "Value" "PE-54040"
-			(at 91.44 76.2 90)
+		(property "Value" "7447720330 (HandSolder)"
+			(at 115.062 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D7.8mm_P5.00mm_Fastron_07HCP"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -4023,6 +3953,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 158.75 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdb63388-5c90-4197-9670-500e64d7a6c7")
+		(property "Reference" "R44"
+			(at 161.29 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5kOhm (C2073749)"
+			(at 161.29 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.972 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1380f2e5-55bd-4639-b924-f9dbf1c90704")
+		)
+		(pin "1"
+			(uuid "ff63b22a-c8aa-44cb-97fa-e63c82c5d3c1")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 55.88 180)
 		(unit 1)
@@ -4106,8 +4106,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF Ceramic"
-			(at 37.084 82.804 0)
+		(property "Value" "0.1uF Ceramic (CL21B104KBCNNNC )"
+			(at 20.066 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.4152 81.28 0)
 			(effects
 				(font
@@ -4365,7 +4365,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc40e6ef-974e-4ca9-b3dd-f0f848c534d5")
 		(property "Reference" "D1"
 			(at 90.17 81.2799 90)
@@ -4376,8 +4375,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SR502"
-			(at 90.17 83.8199 90)
+		(property "Value" "SR502 (HandSoldered)"
+			(at 77.216 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal"
 			(at 87.63 82.55 0)
 			(effects
 				(font
