@@ -1,0 +1,290 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "32d56da6-5e65-4710-963b-c2c885179fd5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 74.93 17.78)
+		(size 43.18 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "16556e1c-b6a1-4087-9744-a66741a43af5")
+		(property "Sheetname" "Driver Stage"
+			(at 74.93 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32BLDCV3-DRIVER.kicad_sch"
+			(at 74.93 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 BLDC Driver V3"
+				(path "/32d56da6-5e65-4710-963b-c2c885179fd5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 71.12)
+		(size 41.91 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "300ce279-b075-4f46-93b5-4532fc4005d6")
+		(property "Sheetname" "Connectors"
+			(at 76.2 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32BLDCV3-Connectors.kicad_sch"
+			(at 76.2 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 BLDC Driver V3"
+				(path "/32d56da6-5e65-4710-963b-c2c885179fd5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 17.78)
+		(size 52.07 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "40152b4c-ebb2-461b-a3fa-d6c8cd3b8814")
+		(property "Sheetname" "Sensing"
+			(at 17.78 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32BLDCV3-Sensing.kicad_sch"
+			(at 17.78 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 BLDC Driver V3"
+				(path "/32d56da6-5e65-4710-963b-c2c885179fd5"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 71.12)
+		(size 50.8 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5cdd016d-f986-4f32-bf4e-0672154fe7ef")
+		(property "Sheetname" "MCU"
+			(at 19.05 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 19.05 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 BLDC Driver V3"
+				(path "/32d56da6-5e65-4710-963b-c2c885179fd5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 17.78)
+		(size 30.48 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "71bb7118-9791-4795-bb1e-96eda899969a")
+		(property "Sheetname" "STATUS INDICATION"
+			(at 168.91 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STATUS INDICATION.kicad_sch"
+			(at 168.91 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 BLDC Driver V3"
+				(path "/32d56da6-5e65-4710-963b-c2c885179fd5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 17.78)
+		(size 38.1 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b59d1ba8-f61d-441e-9541-da6214961d6f")
+		(property "Sheetname" "POWER"
+			(at 123.19 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32BLDCV3_POWER.kicad_sch"
+			(at 123.19 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32 BLDC Driver V3"
+				(path "/32d56da6-5e65-4710-963b-c2c885179fd5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

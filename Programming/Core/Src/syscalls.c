@@ -29,6 +29,8 @@
 #include <time.h>
 #include <sys/time.h>
 #include <sys/times.h>
+#include "stm32f4xx.h"
+#include <sys/unistd.h>
 
 
 /* Variables */
@@ -77,17 +79,7 @@ __attribute__((weak)) int _read(int file, char *ptr, int len)
   return len;
 }
 
-__attribute__((weak)) int _write(int file, char *ptr, int len)
-{
-  (void)file;
-  int DataIdx;
 
-  for (DataIdx = 0; DataIdx < len; DataIdx++)
-  {
-    __io_putchar(*ptr++);
-  }
-  return len;
-}
 
 int _close(int file)
 {
@@ -173,4 +165,14 @@ int _execve(char *name, char **argv, char **env)
   (void)env;
   errno = ENOMEM;
   return -1;
+}
+
+__attribute__((weak))
+int _write(int file, const char *ptr, int len)
+{
+  (void)file;
+  for (int i = 0; i < len; i++) {
+    ITM_SendChar((uint32_t)ptr[i]);   // SWV ITM stimulus port 0
+  }
+  return len;
 }

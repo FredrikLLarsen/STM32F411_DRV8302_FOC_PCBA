@@ -112,10 +112,10 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-    GPIO_InitStruct.Pin = MOT_NTC_1_Pin;
+    GPIO_InitStruct.Pin = GPIO_PIN_1;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(MOT_NTC_1_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* USER CODE BEGIN ADC1_MspInit 1 */
 
@@ -151,7 +151,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
     HAL_GPIO_DeInit(GPIOA, A_SENSE_ADC1_IN2_Pin|MOS1_NTC_Pin|B_SENSE_ADC1_IN4_Pin|C_Sense_ADC1_IN6_Pin
                           |PVDDSENSE_Pin);
 
-    HAL_GPIO_DeInit(MOT_NTC_1_GPIO_Port, MOT_NTC_1_Pin);
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_1);
 
   /* USER CODE BEGIN ADC1_MspDeInit 1 */
 
@@ -308,7 +308,7 @@ void HAL_TIMEx_HallSensor_MspInit(TIM_HandleTypeDef* htimex_hallsensor)
     PB4     ------> TIM3_CH1
     PB5     ------> TIM3_CH2
     */
-    GPIO_InitStruct.Pin = HALLZ_TIM3CH3_Pin|HALL_A_TIM3CH1_Pin|HALL_B_TIM3CH2_Pin;
+    GPIO_InitStruct.Pin = HALLZ_TIM3CH3_Pin|HALL_B_TIM3CH1_Pin|HALL_A_TIM3CH2_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
@@ -433,7 +433,7 @@ void HAL_TIMEx_HallSensor_MspDeInit(TIM_HandleTypeDef* htimex_hallsensor)
     PB4     ------> TIM3_CH1
     PB5     ------> TIM3_CH2
     */
-    HAL_GPIO_DeInit(GPIOB, HALLZ_TIM3CH3_Pin|HALL_A_TIM3CH1_Pin|HALL_B_TIM3CH2_Pin);
+    HAL_GPIO_DeInit(GPIOB, HALLZ_TIM3CH3_Pin|HALL_B_TIM3CH1_Pin|HALL_A_TIM3CH2_Pin);
 
   /* USER CODE BEGIN TIM3_MspDeInit 1 */
 

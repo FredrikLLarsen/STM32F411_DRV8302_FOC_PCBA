@@ -1,4 +1,11 @@
-26422727830085756
+26445547309084688
+AS6500
+SOIC8
+<b>SOIC-8</b> CASE 751-07<p>Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF<p><b>D (R-PDSO-G8)</b>PLATIC SMALL-OUTLINE PACKAGE<br>Source: http://focus.ti.com/lit/ds/symlink/tlc27l2.pdf
+
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,13 @@ audio belton reverb
 0
 7
 7
+BMI088
+PQFN50P450X300X100-16N
+
+
+0
+16
+16
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -59219,6 +59233,13 @@ ceramic
 0
 3
 3
+DRV8302DCAR
+SOP50P810X120-57N
+
+
+0
+57
+57
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -61242,6 +61263,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FH34SRJ-10S-0.5SH
+HRS_FH34SRJ-10S-0.5SH_50_
+
+
+0
+12
+12
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -62320,6 +62348,13 @@ GDT 3R-6
 0
 3
 3
+GT-USB-7010B
+G-SWITCH_GT-USB-7010B
+
+
+0
+16
+16
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -68956,6 +68991,13 @@ solder jumper open
 0
 3
 3
+L7987TR
+SOP65P640X120-17N
+HTSSOP16
+Integrated Circuit
+0
+17
+17
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -70181,6 +70223,48 @@ Yellow 5381 Series LED
 0
 2
 2
+LMR38020SDDAR
+DDA0008E-IPC_A
+
+LMR38020SDDAR 
+0
+9
+9
+LMR38020SDDAR
+DDA0008E-IPC_B
+
+LMR38020SDDAR 
+0
+9
+9
+LMR38020SDDAR
+DDA0008E-IPC_C
+
+LMR38020SDDAR 
+0
+9
+9
+LMR38020SDDAR
+DDA0008E-MFG
+
+LMR38020SDDAR 
+0
+15
+15
+Libraries
+HRS_FH34SRJ-10S-0.5SH_50_
+
+
+0
+12
+12
+Libraries
+SOT95P280X110-6N
+
+
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -96452,6 +96536,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SIR182DP
+TRANS_SIR182DP-T1-RE3
+
+
+0
+9
+9
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

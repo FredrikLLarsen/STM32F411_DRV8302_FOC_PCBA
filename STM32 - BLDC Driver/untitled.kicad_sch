@@ -5,6 +5,298 @@
 	(uuid "7a3bd073-12d2-4ca4-b276-7402c526d41f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2025-09-26_20-56-39:LMR38020SDDAR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LMR38020SDDAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DDA0008E-IPC_A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/lmr38020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LMR38020SDDAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DDA0008E-IPC_A DDA0008E-IPC_B DDA0008E-IPC_C DDA0008E-MFG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMR38020SDDAR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -35.56)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -35.56) (xy 35.56 -35.56)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 35.56 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 35.56 -35.56) (xy 35.56 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "RT_SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -7.62 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 40.64 -17.78 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -22.86 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -27.94 180)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -33.02 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -414,174 +706,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -727,189 +851,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1244,182 +1185,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LM2596S-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM2596S-3.3"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.3V 3A Step-Down Voltage Regulator, TO-263"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Down Voltage Regulator 3.3V 3A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM2596S-3.3_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM2596S-3.3_1_1"
-				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "~{ON}/OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -1545,7 +1310,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+5V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1566,7 +1331,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+5V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1592,7 +1357,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1610,7 +1375,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1648,7 +1413,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1872,6 +1637,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Make this XT30, right angle"
 		(exclude_from_sim no)
@@ -1883,15 +1773,25 @@
 		)
 		(uuid "0dfcc9c0-e46b-42f0-8afa-17911d1e67d6")
 	)
-	(text "Switching regulator\n24V to 3V3 3A\n\nCheck and verify before ordering: C,L,D\n"
+	(text "3V3\n"
 		(exclude_from_sim no)
-		(at 72.644 59.944 0)
+		(at 99.06 139.192 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "5a850e5d-b09c-4752-aafa-754acc5b53eb")
+		(uuid "3bddf078-3720-4c3b-9606-1a2fefc614c1")
+	)
+	(text "5V\n"
+		(exclude_from_sim no)
+		(at 97.79 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ab97201-6a08-4e57-aa1e-4fa978c4bfc0")
 	)
 	(text "VIN24V\n"
 		(exclude_from_sim no)
@@ -1903,45 +1803,23 @@
 		)
 		(uuid "77e80265-3f94-4962-a8bf-21a02a7f9a5c")
 	)
-	(text "This should prevent reverse current\n"
-		(exclude_from_sim no)
-		(at 155.956 67.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c67a1d08-2fa2-4480-a3f2-27708155a4dc")
-	)
 	(junction
-		(at 171.45 78.74)
+		(at 166.37 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1739961a-ddd0-4bc2-b076-33573aee188c")
+		(uuid "10bc7c45-ba8c-46ca-b30d-bce7d44c4744")
 	)
 	(junction
-		(at 107.95 78.74)
+		(at 147.32 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1acb9f40-36e8-4c77-855b-130a0dd063f5")
+		(uuid "1545d01e-e649-494d-9d6b-92b26758c617")
 	)
 	(junction
-		(at 114.3 78.74)
+		(at 217.17 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ec30dcf-c8b8-4bd6-8e8b-2538a35f2b54")
-	)
-	(junction
-		(at 158.75 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31e59924-d51c-44be-97bf-cf4ce73ad620")
-	)
-	(junction
-		(at 30.48 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33340a12-2d8b-421e-9c74-6f195b3c1a4d")
+		(uuid "269a5cd2-9030-4092-97a7-e3838146648e")
 	)
 	(junction
 		(at 26.67 27.94)
@@ -1950,28 +1828,82 @@
 		(uuid "37fdf28b-c304-4d75-86be-5a14046dcf40")
 	)
 	(junction
-		(at 110.49 78.74)
+		(at 157.48 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "516012a3-9250-4902-a8c3-b74259dbd794")
+		(uuid "49af833a-af62-4584-8634-82cbcf0b6835")
 	)
 	(junction
-		(at 175.26 78.74)
+		(at 167.64 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69f6b68b-f055-46e8-af92-dd16795c6543")
+		(uuid "4c70fb3f-acd9-42e0-ab95-c2784b0a1666")
 	)
 	(junction
-		(at 44.45 81.28)
+		(at 53.34 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "830fc399-6de4-4854-a59c-8ac0ef53d7d4")
+		(uuid "594a3462-40a7-40b8-8158-2b23132c3fa5")
+	)
+	(junction
+		(at 226.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d33e2c8-8411-4766-8076-c93281391414")
+	)
+	(junction
+		(at 78.74 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe5501f-d17b-415b-9484-a70493dbe9d4")
+	)
+	(junction
+		(at 30.48 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631613f7-cf60-4ba2-9224-196e37ed46f9")
 	)
 	(junction
 		(at 30.48 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad792d8b-58bd-400b-a243-b3804e93d44c")
+		(uuid "6b1be36b-4308-4d1e-ba86-0fdf266c8720")
+	)
+	(junction
+		(at 156.21 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868ffbd1-2acb-4ffc-84fd-b1f22617a898")
+	)
+	(junction
+		(at 142.24 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c93381-1b26-4c0b-94ca-bd69f9956d70")
+	)
+	(junction
+		(at 58.42 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f530925-7dd0-4c09-b51a-136d7dd75a31")
+	)
+	(junction
+		(at 53.34 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98c20ade-b839-4f9a-af8b-825dccf4335b")
+	)
+	(junction
+		(at 118.11 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a03b598a-283e-4fb0-a08c-4de05c2d7bca")
+	)
+	(junction
+		(at 119.38 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaed47a5-d745-40f6-84eb-3019424355b6")
 	)
 	(junction
 		(at 26.67 22.86)
@@ -1980,68 +1912,204 @@
 		(uuid "b4f24186-0ac6-4383-8dc8-24912f90b0e9")
 	)
 	(junction
-		(at 44.45 73.66)
+		(at 77.47 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce27dee4-5ad6-4147-bb76-8688af6ec6d4")
+		(uuid "b50d0d02-f94b-41be-9003-0e02b529b1f3")
 	)
 	(junction
-		(at 33.02 73.66)
+		(at 157.48 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db306469-7ad3-45a6-b219-4e21d25e0bb2")
+		(uuid "b57fc02d-869f-401e-8392-1da3294c8d31")
 	)
 	(junction
-		(at 58.42 81.28)
+		(at 52.07 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd900e27-2681-4d3d-89a4-68e0e390f65c")
+		(uuid "bd12bc96-a3d1-4c0a-8bd2-c45c6e762b9d")
 	)
 	(junction
-		(at 87.63 78.74)
+		(at 156.21 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e42f126c-b56e-4c08-a5fd-14f1d311f230")
+		(uuid "c3d56124-4813-4322-bef9-fbd5f2155ff8")
+	)
+	(junction
+		(at 142.24 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c76a1942-5d62-4d05-ba2e-10d64cc4dd59")
+	)
+	(junction
+		(at 57.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9740d87-ae36-4d9e-a0cd-a34c4001a098")
+	)
+	(junction
+		(at 62.23 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf678ad-7727-49bc-b239-03b38a0f8b4f")
+	)
+	(junction
+		(at 231.14 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfe7f839-5e04-429f-b6a6-9d8f7420f57b")
+	)
+	(junction
+		(at 146.05 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3464123-6d40-474e-8a55-9de6f47e4516")
+	)
+	(junction
+		(at 243.84 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4fa88c5-d1ab-4665-ae3d-44a8716cf51c")
+	)
+	(junction
+		(at 140.97 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8179e3e-be26-4e53-8c60-1987226ddf40")
+	)
+	(junction
+		(at 140.97 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e85b1ff7-6882-4cd2-a2bd-3c2f4b0fbc5e")
+	)
+	(junction
+		(at 63.5 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faef896e-094c-4112-876d-3e4284b1abf1")
+	)
+	(junction
+		(at 53.34 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd0d16eb-c004-4142-9dd7-1620e05e7227")
+	)
+	(no_connect
+		(at 224.79 111.76)
+		(uuid "1f83b3d3-b26c-42dc-82a6-f1cea6f23e2e")
+	)
+	(no_connect
+		(at 118.11 81.28)
+		(uuid "39d07cb9-3784-48f6-804e-9c996fe579fa")
+	)
+	(no_connect
+		(at 233.68 86.36)
+		(uuid "d865e5af-95ce-4003-aa2f-b652cd02728f")
+	)
+	(no_connect
+		(at 119.38 147.32)
+		(uuid "e2de0cf3-7fe0-42ba-8f12-6a67893d8926")
 	)
 	(wire
 		(pts
-			(xy 110.49 69.85) (xy 110.49 78.74)
+			(xy 52.07 76.2) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "020ebb81-b8c3-459d-9f35-0168afc8d61e")
+		(uuid "060044a7-6324-4a82-bc50-66d91d1a6e66")
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 171.45 78.74)
+			(xy 62.23 63.5) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ea1713a-1529-45d7-89a6-ea6301046233")
+		(uuid "0eaaa121-5dad-40e6-95de-0bd1cf8cf8e8")
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 153.67 86.36)
+			(xy 157.48 124.46) (xy 157.48 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "148e5397-ff2d-4fba-8af1-32612a6b2255")
+		(uuid "168835c8-0d47-42cb-b8b8-a2c5b6bb5af1")
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 58.42)
+			(xy 52.07 71.12) (xy 52.07 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2443471a-945c-4120-8fe5-ca09e17c626c")
+		(uuid "1c6faf87-3699-436e-a882-0e91435d8127")
+	)
+	(wire
+		(pts
+			(xy 142.24 152.4) (xy 142.24 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb424b0-2ccf-42d6-9cc7-e9f1835c4763")
+	)
+	(wire
+		(pts
+			(xy 146.05 71.12) (xy 156.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218793ac-1bc0-4973-920b-49b86541d84e")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 166.37 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259975d4-348d-4954-ab80-a369bfa8066f")
+	)
+	(wire
+		(pts
+			(xy 41.91 27.94) (xy 30.48 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a5accf-f05d-4d04-8afa-91b1ca6d87a4")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 157.48 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cb2bad-0116-4f53-b00a-16fb23a98002")
+	)
+	(wire
+		(pts
+			(xy 217.17 116.84) (xy 231.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352d98b8-3137-4d25-b339-27ff52a8b488")
 	)
 	(wire
 		(pts
@@ -2055,73 +2123,103 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 73.66) (xy 59.69 73.66)
+			(xy 119.38 152.4) (xy 142.24 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3acef9f1-7104-46bd-9e9b-3383c4af0564")
+		(uuid "36c43e03-bffb-482a-a385-f3b80fdbfc43")
 	)
 	(wire
 		(pts
-			(xy 99.06 69.85) (xy 110.49 69.85)
+			(xy 30.48 22.86) (xy 53.34 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46b8c4bf-8205-4c44-a3ac-556299624899")
+		(uuid "37ec7eee-a98d-48c9-a7d2-03ce7eedf499")
 	)
 	(wire
 		(pts
-			(xy 44.45 81.28) (xy 58.42 81.28)
+			(xy 63.5 137.16) (xy 63.5 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49b84d85-b1ba-4c46-ac6d-68b4b8d0b447")
+		(uuid "4a163b4b-07f9-4936-a800-614d0b1e207a")
 	)
 	(wire
 		(pts
-			(xy 29.21 73.66) (xy 33.02 73.66)
+			(xy 53.34 30.48) (xy 49.53 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cbaa540-d218-4acd-8af2-726eeb7c93e3")
+		(uuid "4a412881-e095-4bb4-8b5a-fad3755f185c")
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 107.95 73.66)
+			(xy 78.74 129.54) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d1f3ab4-e1bd-4a2c-a5d8-830825da2eef")
+		(uuid "4a5fd562-989c-4db4-993c-35c3a7725234")
 	)
 	(wire
 		(pts
-			(xy 153.67 78.74) (xy 158.75 78.74)
+			(xy 233.68 81.28) (xy 243.84 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "526e157c-65f1-4571-989d-f97c50db8b62")
+		(uuid "4bb6aea0-cb56-4f5d-ad6d-33dead8d8b6c")
 	)
 	(wire
 		(pts
-			(xy 110.49 78.74) (xy 114.3 78.74)
+			(xy 140.97 71.12) (xy 146.05 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5df2ce1f-7c80-49bc-9fb8-1446bdb5af55")
+		(uuid "5157e37d-7264-4241-8834-c97f8d665233")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5300579a-48ba-4713-a7b6-f0f67b7a32e2")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54418cd7-d4a2-43b4-a51d-4b71005689d9")
+	)
+	(wire
+		(pts
+			(xy 156.21 58.42) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b93fa85-74e2-4b7a-af32-7c270cd4a4b7")
 	)
 	(wire
 		(pts
@@ -2135,16 +2233,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 175.26 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623171a1-3e74-42cc-b446-4504c23bf6a8")
-	)
-	(wire
-		(pts
 			(xy 26.67 19.05) (xy 26.67 22.86)
 		)
 		(stroke
@@ -2155,27 +2243,87 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 110.49 78.74)
+			(xy 142.24 137.16) (xy 147.32 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ab5126f-cdd7-43ad-8ac2-8dd7cba9261d")
+		(uuid "712b46f5-1b48-49a0-bfe1-6f04ed956580")
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 171.45 78.74)
+			(xy 53.34 129.54) (xy 63.5 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b0354b1-4ef1-4cbc-9d50-7f7c0b21f56b")
+		(uuid "792938c7-b14b-40c8-976b-902815399ac8")
 	)
 	(wire
 		(pts
-			(xy 30.48 22.86) (xy 60.96 22.86)
+			(xy 243.84 81.28) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a375b43-b6d5-4888-9cac-29e376b523a6")
+	)
+	(wire
+		(pts
+			(xy 41.91 29.21) (xy 41.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a79da35-2362-48f4-a27c-a3e701b02b97")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 142.24 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d203ede-e0be-4a97-9868-13c1742ffecc")
+	)
+	(wire
+		(pts
+			(xy 49.53 30.48) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81661270-320c-4d6f-a049-f748e5ebc0b9")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 77.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fd537d-eaae-4f36-91b0-8c10dc26b5a6")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a0ce68-2a62-4590-b6dc-1d39320e57ce")
+	)
+	(wire
+		(pts
+			(xy 26.67 22.86) (xy 30.48 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2185,33 +2333,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 27.94) (xy 60.96 27.94)
+			(xy 53.34 142.24) (xy 58.42 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8edadf16-642f-4ae1-8807-365e910faf98")
+		(uuid "8e2c2016-1514-4d4e-b1c7-89729b224189")
 	)
 	(wire
 		(pts
-			(xy 175.26 95.25) (xy 175.26 78.74)
+			(xy 62.23 76.2) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91ee4269-00c2-469c-b866-064aeff2d95b")
-	)
-	(wire
-		(pts
-			(xy 33.02 73.66) (xy 44.45 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd7b91a-9c18-4e1f-8e90-73058b2fed9c")
+		(uuid "932a3219-bf0b-4ee0-adf4-e575040ac914")
 	)
 	(wire
 		(pts
@@ -2225,43 +2363,43 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 138.43 95.25)
+			(xy 52.07 63.5) (xy 62.23 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a140feed-e4e7-453f-ad37-c95767883572")
+		(uuid "a7e14b52-6e13-4486-b06a-4fd9a25bad11")
 	)
 	(wire
 		(pts
-			(xy 153.67 86.36) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ec2c87-f27a-41ad-b2e1-682e2bad9277")
-	)
-	(wire
-		(pts
-			(xy 29.21 81.28) (xy 44.45 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ee6456-0fe4-4502-be84-6b53d220a39f")
-	)
-	(wire
-		(pts
-			(xy 60.96 27.94) (xy 60.96 26.67)
+			(xy 60.96 26.67) (xy 60.96 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8ab42a6-4aa8-413e-9523-0539973b0a90")
+	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 231.14 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa603a1-9cf0-438f-a89f-836ab6dbee56")
+	)
+	(wire
+		(pts
+			(xy 156.21 71.12) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaad1988-24f0-448a-9f56-f90fb7fdfade")
 	)
 	(wire
 		(pts
@@ -2275,33 +2413,53 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 78.74) (xy 107.95 78.74)
+			(xy 147.32 129.54) (xy 157.48 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0ab9d13-ce40-4069-91e3-bef996b80cb6")
+		(uuid "ab8c6efb-9e4b-4bea-95e0-ea4569f514bb")
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 58.42 81.28)
+			(xy 226.06 91.44) (xy 243.84 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba8c94a9-bb4f-4106-b804-4cc0b91c9f8a")
+		(uuid "b0918d0a-0ef5-4c5c-b4cf-4d8cf6427821")
 	)
 	(wire
 		(pts
-			(xy 58.42 78.74) (xy 59.69 78.74)
+			(xy 157.48 137.16) (xy 167.64 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1d49e07-0009-4f71-a0da-e60274c39a60")
+		(uuid "b2f81c49-7717-4c58-8020-48ac0153ce11")
+	)
+	(wire
+		(pts
+			(xy 243.84 91.44) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb355efe-c7cf-4f46-ba56-ed31482640bf")
+	)
+	(wire
+		(pts
+			(xy 53.34 137.16) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0c4beb-feb3-4d98-a7cc-1bc92a2f237a")
 	)
 	(wire
 		(pts
@@ -2315,183 +2473,134 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 81.28) (xy 58.42 83.82)
+			(xy 63.5 142.24) (xy 58.42 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7ea5410-c923-4eae-81e7-eb6db8a37eb2")
+		(uuid "e3450ea4-34a5-4db0-ac4c-7e60549545ff")
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 87.63 78.74)
+			(xy 49.53 29.21) (xy 41.91 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb493b78-52cc-488b-a0b9-1093f0b294ea")
+		(uuid "e5edf1a3-ae6a-43c4-a4a4-7204cfc15025")
 	)
 	(wire
 		(pts
-			(xy 26.67 22.86) (xy 30.48 22.86)
+			(xy 237.49 106.68) (xy 231.14 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eee47244-e7d5-4fc0-bb21-182a75b10a2a")
+		(uuid "e609a97e-9812-47a7-ba47-9f60744f6791")
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 138.43 78.74)
+			(xy 125.73 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4269701-8305-41f4-8738-1b565ff811df")
+		(uuid "ea57f603-5805-4c07-bbc2-a47d0ac894b1")
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 85.09 73.66)
+			(xy 157.48 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9d9acfb-3070-4898-aa8d-cce5eec77e43")
+		(uuid "ed2bcd62-5159-4ff3-b7c7-a95401cd9406")
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 114.3 78.74)
+			(xy 63.5 129.54) (xy 78.74 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc70315d-eb6b-4290-b2de-4dac65e67afc")
+		(uuid "ef2f845c-ab8b-4752-b04b-9564732fe30c")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dbf351-f530-4f1b-9502-e17179bcdcd7")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7885caa-5482-48da-8c45-0f2a050d4467")
+	)
+	(wire
+		(pts
+			(xy 60.96 30.48) (xy 53.34 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89219e9-a9e3-4160-8c40-7172408b7881")
+	)
+	(wire
+		(pts
+			(xy 231.14 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd34495-a568-4156-bb3b-36c04b7c0abf")
 	)
 	(symbol
-		(lib_id "Power_Management:LM66100DCK")
-		(at 146.05 81.28 0)
+		(lib_id "Device:C")
+		(at 166.37 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08c1054b-9fc8-4fb1-9959-d06a4d0c52b1")
-		(property "Reference" "U7"
-			(at 146.05 71.12 0)
+		(uuid "0480805e-4b43-4cac-ab0b-28880e6f8399")
+		(property "Reference" "C40"
+			(at 170.18 66.6749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM66100DCK"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
-			(at 146.05 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
-			(at 146.05 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "6bf640a9-25fb-422d-be32-a028b626f5e2")
-		)
-		(pin "5"
-			(uuid "503ff2d6-339a-4e0d-803e-412defca3a2f")
-		)
-		(pin "3"
-			(uuid "fd06a53a-b013-4822-bbf6-abff7271b0aa")
-		)
-		(pin "6"
-			(uuid "38ac16fc-655c-409d-9b86-a59f0047c14f")
-		)
-		(pin "1"
-			(uuid "92f4ae36-3e4f-46dd-a301-38bc512df3cb")
-		)
-		(pin "2"
-			(uuid "56f5357d-289e-454c-a2ce-7a0dcc9e03d7")
-		)
-		(instances
-			(project ""
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM2596S-3.3")
-		(at 72.39 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d19c534-3e91-4403-9d75-081ca6cc7082")
-		(property "Reference" "U2"
-			(at 72.39 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596S-3.3"
-			(at 72.39 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 73.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 72.39 76.2 0)
+		(property "Value" "22uF (C45783)"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 167.3352 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,8 +2608,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3V 3A Step-Down Voltage Regulator, TO-263"
-			(at 72.39 76.2 0)
+		(property "Datasheet" "~"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 166.37 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,41 +2627,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "083e5723-bd2a-4d9c-aabe-9dde02fcd72b")
-		)
-		(pin "5"
-			(uuid "fd6beed2-7555-48d5-92e5-e01f838adecf")
-		)
-		(pin "4"
-			(uuid "d75f2a8e-0634-4635-98b1-fa303e8a6941")
+			(uuid "32c5f438-9c30-4260-99d4-ae1ceb5a434f")
 		)
 		(pin "1"
-			(uuid "50f0c48a-5d9d-4e5e-b292-35da83119e0f")
-		)
-		(pin "3"
-			(uuid "5cd3fa0e-520a-4024-b2ce-c11f8402cfd9")
+			(uuid "9062abfd-6e2e-441b-84ac-d27c4c057e89")
 		)
 		(instances
-			(project ""
+			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "U2")
+					(reference "C40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 33.02 73.66 0)
+		(lib_id "power:+5V")
+		(at 209.55 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0fc989c0-ded7-4413-a778-f78c71eda8d2")
-		(property "Reference" "#PWR077"
-			(at 33.02 77.47 0)
+		(uuid "06f27154-31e7-4d40-b6c3-37e5c023029a")
+		(property "Reference" "#PWR078"
+			(at 213.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,16 +2660,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 33.02 68.58 0)
+		(property "Value" "MAIN_3V3"
+			(at 205.74 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 73.66 0)
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 73.66 0)
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,8 +2687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 33.02 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,12 +2697,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "671da05c-db97-4f2d-b874-409c11630626")
+			(uuid "144bffa0-8a6d-4a52-8e4f-58d4b5daa92b")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR077")
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c4c3c2d-4d5d-49ae-9477-e4b1102f6ef9")
+		(property "Reference" "#PWR0124"
+			(at 125.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ea4d539-c237-4956-af81-1b138d3c9fc0")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -2617,7 +2794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "PVDD"
 			(at 21.59 17.78 0)
 			(effects
 				(font
@@ -2659,6 +2836,303 @@
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 53.34 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b63921-533c-4520-9cb2-b2e7ce6da749")
+		(property "Reference" "#PWR0121"
+			(at 57.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVDD"
+			(at 49.53 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 53.34 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e98b5114-6f08-40a6-a772-daa118bed711")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173d91c0-c1b5-48de-ab8d-d1b1756a72cb")
+		(property "Reference" "C36"
+			(at 161.29 132.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF (C45783)"
+			(at 161.29 134.62 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 158.4452 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2769474-8f3d-429b-8c57-21670e9e4f2d")
+		)
+		(pin "1"
+			(uuid "c9b70b6a-2db6-40b9-a5a0-712b5c7635cf")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18436efd-8180-4c65-a63f-71671ae919e1")
+		(property "Reference" "C44"
+			(at 57.15 132.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF 50V (C29823)"
+			(at 38.354 136.144 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 54.3052 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc81901e-e8c2-4c6e-8d18-13f4faf157cb")
+		)
+		(pin "2"
+			(uuid "6dcfbcb2-a347-4ae4-8103-2245a6a170f8")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-26_20-56-39:LMR38020SDDAR")
+		(at 78.74 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185afbcf-8e54-4116-a682-1f411c5f0e38")
+		(property "Reference" "U3"
+			(at 99.06 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LMR38020SDDAR"
+			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DDA0008E-IPC_A"
+			(at 78.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmr38020"
+			(at 78.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a2a99f70-1f07-4185-a6e0-21011219a9a2")
+		)
+		(pin "6"
+			(uuid "c5e8357e-d583-4e0e-8d89-308b3d6fcb8a")
+		)
+		(pin "9"
+			(uuid "a80cb8b8-3c92-457e-958c-586c495a437d")
+		)
+		(pin "7"
+			(uuid "9a3b8259-f9a6-43f8-a0bc-410bdb03d8e9")
+		)
+		(pin "1"
+			(uuid "72c2664a-cc44-4c60-921b-778762050533")
+		)
+		(pin "2"
+			(uuid "aee46e39-983e-4593-a33a-c04dee67c0e8")
+		)
+		(pin "3"
+			(uuid "ef0a43f6-198f-47ea-a7de-09b023ec6962")
+		)
+		(pin "4"
+			(uuid "899ef45e-ca63-410a-a10b-96328c13a74b")
+		)
+		(pin "8"
+			(uuid "df138137-294f-45c8-b79e-eba07b696887")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2731,16 +3205,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 29.21 77.47 0)
+		(lib_id "power:GND")
+		(at 77.47 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1a7a0427-e40d-46ac-9d63-722977ed400a")
-		(property "Reference" "C1"
-			(at 33.02 76.1999 0)
+		(fields_autoplaced yes)
+		(uuid "1c22f5c5-a38c-4020-a28f-dd402d01acfe")
+		(property "Reference" "#PWR0105"
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34092ceb-f7ed-45e2-8b9d-45d7a5dcf3c9")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f18fc25-a991-47b3-8465-ec879c90760d")
+		(property "Reference" "C67"
+			(at 55.88 66.6749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,17 +3288,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "680uF LOW ESR ( C443017 )"
-			(at 20.574 87.63 0)
+		(property "Value" "4.7uF 50V (C29823)"
+			(at 37.084 70.104 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm"
-			(at 30.1752 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 53.0352 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 77.47 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +3316,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 29.21 77.47 0)
+			(at 52.07 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,94 +3325,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "04d67084-e70a-4959-80b7-bee54141ac2d")
+			(uuid "c2e38252-426f-4a6e-a782-c4d3fee6d019")
 		)
 		(pin "2"
-			(uuid "cac46510-a4c8-4327-ae63-359d8f41dae1")
+			(uuid "6fd2bbe8-2f96-49da-be4d-6ae956d81656")
 		)
 		(instances
-			(project ""
+			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 114.3 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21fb510b-d0da-40ad-b182-3679c7196dcf")
-		(property "Reference" "D2"
-			(at 116.84 59.3724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C2297"
-			(at 116.84 61.9124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bd5cc76-7147-49c6-b48e-31421d34c771")
-		)
-		(pin "2"
-			(uuid "15982837-364e-4512-80c7-113644807f35")
-		)
-		(instances
-			(project ""
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "D2")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -2888,7 +3349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "251bc02a-0afe-486e-add1-6fe235c562ea")
-		(property "Reference" "J1"
+		(property "Reference" "J9"
 			(at 67.31 24.1299 0)
 			(effects
 				(font
@@ -2942,33 +3403,24 @@
 		(instances
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "J1")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 114.3 19.05 90)
+		(lib_id "Device:R")
+		(at 142.24 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "273c2e8e-15a7-43ea-b471-0b2fed5aa27a")
-		(property "Reference" "#PWR097"
-			(at 118.11 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 110.49 19.0499 90)
+		(uuid "258c5e75-326c-4fd5-800e-b4293a66a16f")
+		(property "Reference" "R64"
+			(at 144.78 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,8 +3428,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 19.05 0)
+		(property "Value" "24.9k (C17571)"
+			(at 144.78 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 140.462 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,8 +3446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 114.3 19.05 0)
+		(property "Datasheet" "~"
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,39 +3455,59 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 114.3 19.05 0)
+		(property "Description" "Resistor"
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "d17ddf44-6d7e-4bda-a8f3-3c0fa85ff412")
 		)
 		(pin "1"
-			(uuid "6418f6b1-9152-4563-b9fc-43965495e3b2")
+			(uuid "98092824-d45f-4737-a495-95f908e4135d")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR097")
+					(reference "R64")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 146.05 88.9 0)
+		(lib_id "Device:C")
+		(at 231.14 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "277ba6d9-c4a9-4353-8776-8f90818433ec")
-		(property "Reference" "#PWR085"
-			(at 146.05 95.25 0)
+		(uuid "26db2ca5-f801-4978-bd51-d1821d911108")
+		(property "Reference" "C42"
+			(at 234.95 109.8549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u low esr (C1779)"
+			(at 234.188 112.776 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 232.1052 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,16 +3515,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 146.05 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 88.9 0)
+		(property "Datasheet" "~"
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,17 +3524,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 146.05 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 88.9 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,12 +3534,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b409a773-dca4-4dc4-b45a-aeba4a4b57a8")
+			(uuid "e4700334-cca6-443f-bc31-23a329fab1e9")
+		)
+		(pin "2"
+			(uuid "f859ba0a-62e3-42c1-ad36-5447905a3a67")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR085")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3149,15 +3616,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 82.55 0)
+		(at 146.05 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "411e247e-4fb1-4f0b-af7d-09ed03bdeb5a")
-		(property "Reference" "C3"
-			(at 111.76 81.2799 0)
+		(fields_autoplaced yes)
+		(uuid "40bde877-bc02-4ef8-86c7-f571ff8cc903")
+		(property "Reference" "C38"
+			(at 149.86 66.6749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,17 +3633,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C600568"
-			(at 111.252 86.36 0)
+		(property "Value" "22uF (C45783)"
+			(at 149.86 68.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-43_Kemet-X"
-			(at 108.9152 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 147.0152 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 82.55 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,144 +3661,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a68cfa3-efcc-44cc-8d7e-9577806a2aaf")
-		)
-		(pin "2"
-			(uuid "42bf09d6-cadb-43e9-a4f3-c990481da6e3")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 171.45 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53b14169-55ac-4319-963b-3aeaf5c68fbc")
-		(property "Reference" "TP4"
-			(at 173.99 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b561a30-6344-443a-b6a4-543061a13a22")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58000093-886b-4374-aadc-25d93f64231a")
-		(property "Reference" "R1"
-			(at 116.84 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5Ohm (C17724)"
-			(at 116.84 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 112.522 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 69.85 0)
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,98 +3670,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "275d1ac0-e516-40e6-ab97-bd0696ad1e31")
+			(uuid "395b0716-9227-412c-8125-c2773af0d794")
 		)
 		(pin "1"
-			(uuid "2a953e4f-1e19-429f-8e49-eebf51440b51")
-		)
-		(instances
-			(project ""
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66812780-41cc-4324-8a99-15c26998ac9c")
-		(property "Reference" "#PWR07"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7834a90-6dc9-4dd2-a934-ee10bb9d71a4")
+			(uuid "b35e0bdd-8a7f-49e0-ac5c-70fa34092253")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR07")
+					(reference "C38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 22.86 90)
+		(lib_id "power:+5V")
+		(at 237.49 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7017f25d-09b0-4d6c-9637-148c557779fd")
-		(property "Reference" "#PWR098"
-			(at 118.11 22.86 0)
+		(uuid "43c12663-8ed0-470b-8e6a-c4e7f03192bc")
+		(property "Reference" "#PWR074"
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3704,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 110.49 22.8599 90)
+			(at 241.3 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 22.86 0)
+			(at 237.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 22.86 0)
+			(at 237.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,8 +3730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 22.86 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,12 +3740,899 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1d54a7f-8103-4ac0-b161-6b6f97e78766")
+			(uuid "55e37925-0462-48a9-903c-8ee1310ba0e9")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 185.42 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4864ae0b-7f47-4f23-828d-ab1afc84e2d4")
+		(property "Reference" "#PWR070"
+			(at 181.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 189.23 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77082516-732f-436a-b592-89c184be5106")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 247.65 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4945af53-8a7e-4ac5-892e-affcecaa0b40")
+		(property "Reference" "#PWR073"
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 251.46 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ef46d9-0e1f-4969-95d2-6aaa7cb37f97")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "511f24b2-c83e-4d0c-9f1f-509f9377b0ad")
+		(property "Reference" "R62"
+			(at 80.01 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "64.9k (C17788)"
+			(at 80.01 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 75.692 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c06620bf-3256-489c-8b9d-c046a4677882")
+		)
+		(pin "1"
+			(uuid "52e7cd97-3740-4538-b9e6-4b8b6170bf6c")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:LM66100DCK")
+		(at 217.17 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52011b20-2f54-4223-85d5-9c2c690a81bc")
+		(property "Reference" "U7"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66100DCK"
+			(at 217.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
+			(at 217.17 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
+			(at 217.17 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69a3d052-6920-44f5-97d6-e3bfae1cf96e")
+		)
+		(pin "1"
+			(uuid "9337c1d6-01d4-4946-befb-0b059485dc87")
+		)
+		(pin "6"
+			(uuid "3e69ff09-dc16-4486-84d5-4d0667cab76f")
+		)
+		(pin "4"
+			(uuid "afd10f21-a2c8-4454-88ee-955390915c6f")
+		)
+		(pin "5"
+			(uuid "3c08c9e5-1abf-4303-9e3e-a7c908324052")
+		)
+		(pin "3"
+			(uuid "e2cc84f2-385e-4dea-b026-8c9d22e39f92")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.38 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56e26093-7549-411f-bb1a-9df4fa912105")
+		(property "Reference" "C74"
+			(at 126.492 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF (C28233)"
+			(at 122.936 135.382 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 120.3452 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "431c8772-9b8d-474e-bbf9-5f2c8de4cc95")
+		)
+		(pin "2"
+			(uuid "38709e6c-0cc2-407c-a6ff-61b6162a343d")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57bedd39-c934-4650-8065-181003ea13f2")
+		(property "Reference" "#PWR077"
+			(at 226.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc2a6255-624b-433e-93d4-ec589fecab1b")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ed17740-3ea1-47e2-b8d1-9b7b74629448")
+		(property "Reference" "R60"
+			(at 140.716 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k (C15458)"
+			(at 139.446 74.422 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 139.192 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3da88e6-4f53-48d8-94bd-1774f53ceaa5")
+		)
+		(pin "1"
+			(uuid "dae7d5ef-b50e-48db-bdea-87238e8d9579")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62489465-cb0d-46d5-a4a3-3e5b42551551")
+		(property "Reference" "C45"
+			(at 65.786 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF 50V (C28233)"
+			(at 57.15 128.524 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 62.5348 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf343b9-ead8-4818-91a7-85f4d42fa464")
+		)
+		(pin "2"
+			(uuid "d3d8924f-6dda-41cb-a0a0-5152617147cd")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6294f770-fcca-4de8-8540-09e89e439d7e")
+		(property "Reference" "#PWR098"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b560d3d-b571-4830-8e64-55593781cebb")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f10454-e305-4cd5-87c7-82e9f92c086a")
+		(property "Reference" "#PWR096"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fc94064-5afc-4381-aa22-d15e6daf41e5")
+		)
+		(instances
+			(project ""
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bef2969-9c8f-4b60-a9b3-0bb663a4f878")
+		(property "Reference" "#PWR099"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f53603-6ef8-4e87-8baa-43b3b486f3eb")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ee26386-d86e-4d58-aa3b-f7926483ea40")
+		(property "Reference" "R63"
+			(at 141.986 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "57.6k (C204216)"
+			(at 139.446 143.256 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 140.462 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "99ffed4c-1032-49dc-b499-3930743225a4")
+		)
+		(pin "1"
+			(uuid "afb15ebe-36ec-4cfa-b538-e8a6067f782b")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 185.42 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f40ede5-aa2a-448e-825f-b0962ba305f4")
+		(property "Reference" "#PWR069"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 181.61 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "170b82f5-2882-457e-83ce-f4b0176eed19")
+		)
+		(instances
+			(project ""
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3496,7 +4648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "795f71c0-c773-4db4-be29-f9796e6691dd")
-		(property "Reference" "TP2"
+		(property "Reference" "TP11"
 			(at 33.02 29.9719 0)
 			(effects
 				(font
@@ -3514,7 +4666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 25.4 27.94 0)
 			(effects
 				(font
@@ -3547,39 +4699,132 @@
 		(instances
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "TP2")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 91.44 78.74 90)
+		(lib_id "2025-09-26_20-56-39:LMR38020SDDAR")
+		(at 77.47 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ea17fcf-b2d7-4aa8-bf25-5a7834b957ed")
-		(property "Reference" "L1"
-			(at 95.25 80.264 90)
+		(fields_autoplaced yes)
+		(uuid "7ef50000-6045-40bc-8128-b14f912a974d")
+		(property "Reference" "U1"
+			(at 97.79 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LMR38020SDDAR"
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DDA0008E-IPC_A"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lmr38020"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "7447720330 (HandSolder)"
-			(at 115.062 97.536 90)
+		(pin "5"
+			(uuid "4047c511-f281-4150-888f-565d14d3e517")
+		)
+		(pin "6"
+			(uuid "ced18353-a72d-482c-8c0b-9d71d0a6bfed")
+		)
+		(pin "9"
+			(uuid "1d4392f7-ad60-4359-a574-170c69b36a02")
+		)
+		(pin "7"
+			(uuid "8616cfbc-0d72-4d84-b9bf-6111cb5761f8")
+		)
+		(pin "1"
+			(uuid "a4783512-6f06-4617-817e-71706596d24f")
+		)
+		(pin "2"
+			(uuid "5335931b-59d9-4186-a11a-47822035dca6")
+		)
+		(pin "3"
+			(uuid "d8eb9beb-75b0-4e82-bc4e-f8ac7e153664")
+		)
+		(pin "4"
+			(uuid "1ed69afa-da40-4242-8ea8-b4523050f89b")
+		)
+		(pin "8"
+			(uuid "b074058a-8d3b-45ef-8671-42d46cb33c69")
+		)
+		(instances
+			(project ""
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83960778-395f-48a7-ae6e-b9c152f73b99")
+		(property "Reference" "C66"
+			(at 64.516 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Radial_D7.8mm_P5.00mm_Fastron_07HCP"
-			(at 91.44 78.74 0)
+		(property "Value" "100nF 50V (C28233)"
+			(at 55.88 62.484 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 61.2648 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3588,7 +4833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 78.74 0)
+			(at 62.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,8 +4841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 91.44 78.74 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,15 +4851,422 @@
 			)
 		)
 		(pin "1"
-			(uuid "556a9bb1-ac39-4202-adb6-73e7aa359228")
+			(uuid "6d80559f-d4e6-47bd-a900-d09d69eaa1d1")
 		)
 		(pin "2"
-			(uuid "731a9dd9-8add-407f-bfaf-c773e8cebb64")
+			(uuid "1b3b4bce-5c2c-4409-9c67-b75bd114a4d7")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85477097-d7d1-46ca-9a1b-d012d11dc8d3")
+		(property "Reference" "R61"
+			(at 143.51 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24.9k (C17571)"
+			(at 143.51 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 139.192 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd40f92a-f610-402f-9dfa-c971208afc97")
+		)
+		(pin "1"
+			(uuid "00876868-b624-4347-ba5f-2cb284e95b3a")
 		)
 		(instances
 			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "L1")
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85718dca-7f44-48bf-bdf6-c82498597ba0")
+		(property "Reference" "TP12"
+			(at 33.02 18.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 33.02 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8097eca-154d-48e3-864d-6053892f0977")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eb5bccd-1cf1-4e77-a6a7-529e2550c577")
+		(property "Reference" "#PWR0128"
+			(at 163.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MAIN_3V3"
+			(at 171.45 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95e659ab-ddaa-4c65-9477-8fd14391cc1c")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c4b107-8ebd-4c78-b246-eba1ae358c3f")
+		(property "Reference" "#PWR076"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6644cb31-0a3a-417d-8fc7-c0f115938a0f")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95485f15-6adf-4cdb-8b57-c4263aa0ae01")
+		(property "Reference" "#PWR082"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB_3V3"
+			(at 205.74 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c28dc1cc-d179-40b2-a9aa-d92044a5112d")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b13be42-5bf4-4e40-9e97-e5a37e0a8112")
+		(property "Reference" "R59"
+			(at 81.28 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "64.9k (C17788)"
+			(at 81.28 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 76.962 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e40c84c-4e73-4854-9f3f-a8fbb679eea0")
+		)
+		(pin "1"
+			(uuid "eab728b8-2229-4311-bd56-4c60f896e1ca")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -3687,301 +5339,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 78.74 270)
+		(lib_id "Device:L")
+		(at 123.19 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6b6a3f0-d51e-4e5f-88f0-fd17a0754e9e")
-		(property "Reference" "#PWR086"
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 179.07 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "633366cf-eceb-4e2f-8f66-3c53aa32f833")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acad891b-c852-45f7-b177-fa471a75ed14")
-		(property "Reference" "#PWR04"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 88.9 0)
+		(uuid "acc40c31-5269-41a9-84a2-1961521cebc8")
+		(property "Reference" "L2"
+			(at 122.682 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 83.82 0)
+		(property "Value" "15uH (C216196)"
+			(at 129.794 138.43 90)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f835f249-eca2-403e-a1b4-839c5d43dff8")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR04")
-					(unit 1)
+					(size 0.762 0.762)
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 87.63 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2ba37fd-0e00-40dd-a8f1-e407e5781079")
-		(property "Reference" "#PWR05"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5c6729-591a-43f5-8dff-44ee48a53e88")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 22.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbc248f6-7e1d-40f0-9cfc-8ccf66743793")
-		(property "Reference" "#PWR099"
-			(at 110.49 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 118.11 22.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3030580-a412-4052-a196-612bfae3262e")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdb63388-5c90-4197-9670-500e64d7a6c7")
-		(property "Reference" "R44"
-			(at 161.29 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5kOhm (C2073749)"
-			(at 161.29 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 156.972 82.55 90)
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +5373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 82.55 0)
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,8 +5381,142 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 158.75 82.55 0)
+		(property "Description" "Inductor"
+			(at 123.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "413aa980-57d1-48f7-bd6f-8a48b489c0e5")
+		)
+		(pin "2"
+			(uuid "0f903e55-a734-46ba-90bd-bf3c8db71fb2")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acdf6cc6-538b-4138-8df8-2f36be7c4b5e")
+		(property "Reference" "#PWR0122"
+			(at 58.42 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef3e84d-6f59-4b7b-bb57-f4dce131478c")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:LM66100DCK")
+		(at 226.06 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b263b7fb-5956-4b0b-b2eb-9c9129285a05")
+		(property "Reference" "U6"
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM66100DCK"
+			(at 226.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
+			(at 226.06 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ideal Diode With Input Polarity Protection 1.5 - 5.5V  Input Voltage, 1.5A Output Current, Ron 141 mOhm, SC-70-6"
+			(at 226.06 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,81 +5525,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "1380f2e5-55bd-4639-b924-f9dbf1c90704")
+			(uuid "1c3dba52-f7cc-41ce-a08f-8b716da00c36")
 		)
 		(pin "1"
-			(uuid "ff63b22a-c8aa-44cb-97fa-e63c82c5d3c1")
+			(uuid "4379b723-4f91-4a27-89d8-aa0360419ef2")
+		)
+		(pin "6"
+			(uuid "d68a199d-a077-42b2-acd0-9d82f047a7e8")
+		)
+		(pin "4"
+			(uuid "b250e4d7-7c14-4dac-b9a5-b29492f05ce2")
+		)
+		(pin "5"
+			(uuid "8577aa14-af07-42bf-8d15-4f8402cdda6f")
+		)
+		(pin "3"
+			(uuid "e7240edd-a5c9-48f3-93ca-c02c944ef33f")
 		)
 		(instances
-			(project "STM32 - BLDC Driver"
+			(project ""
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc17803e-43e0-4d37-b136-09978f6926f5")
-		(property "Reference" "#PWR09"
-			(at 114.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75540b25-dbd5-4b66-8b32-6e10dc31f729")
-		)
-		(instances
-			(project "STM32 - BLDC Driver"
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR09")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4090,33 +5553,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 44.45 77.47 0)
+		(at 118.11 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cf3fee36-c5db-4c53-990e-612d72919daa")
-		(property "Reference" "C2"
-			(at 48.26 76.1999 0)
+		(uuid "b76e654e-73cc-4364-9218-fd3dea71e35c")
+		(property "Reference" "C68"
+			(at 125.222 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF Ceramic (CL21B104KBCNNNC )"
-			(at 20.066 83.566 0)
+		(property "Value" "0.1uF (C28233)"
+			(at 121.666 69.342 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 45.4152 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 119.0752 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +5588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 77.47 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +5597,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 44.45 77.47 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,15 +5606,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cd4489d-934f-4d01-ab27-15fb6a80df11")
+			(uuid "0b3e0737-a051-4aac-af2a-7cb464789638")
 		)
 		(pin "2"
-			(uuid "c072d6bd-784b-4340-9018-5cebbb6f3b6a")
+			(uuid "75d8dafa-a6a8-4a7d-9d00-0da50d7cade3")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "C2")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -4159,16 +5622,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 83.82 0)
+		(at 157.48 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d4ac8230-b826-4a0d-9b2a-101926b202f6")
-		(property "Reference" "#PWR01"
-			(at 72.39 90.17 0)
+		(uuid "b89f743e-1ab9-4099-ad04-2c0752a1192c")
+		(property "Reference" "#PWR0127"
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +5640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 88.9 0)
+			(at 157.48 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +5648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 83.82 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 83.82 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +5666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 83.82 0)
+			(at 157.48 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,38 +5675,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff7cf317-0694-4eda-b36f-315babddf07b")
+			(uuid "b47d6848-c00c-4a51-9ea9-9cf058bcd597")
 		)
 		(instances
-			(project ""
+			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR01")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 30.48 22.86 0)
+		(lib_id "power:+5V")
+		(at 218.44 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc5b6822-c2bb-435f-ad3a-bd6f4065bf8f")
-		(property "Reference" "TP1"
-			(at 33.02 18.2879 0)
+		(uuid "c6d004b3-ef3c-4773-9b7d-2f322cd5e63f")
+		(property "Reference" "#PWR084"
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 33.02 20.8279 0)
+		(property "Value" "MAIN_3V3"
+			(at 214.63 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,74 +5715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9ae8f5f-2e24-4ed6-b63b-73612b39e440")
-		)
-		(instances
-			(project ""
-				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 114.3 19.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e65704a4-ec6f-4e85-b247-ac29cdfd2998")
-		(property "Reference" "#PWR096"
-			(at 110.49 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PVDD"
-			(at 118.11 19.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 19.05 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +5724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 19.05 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,8 +5732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 114.3 19.05 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4346,28 +5742,95 @@
 			)
 		)
 		(pin "1"
-			(uuid "84ae4388-19e5-40d1-9d8c-01a2469f7678")
+			(uuid "3240e93d-610d-4be3-bde9-0c1b6abe48ec")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "#PWR096")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 87.63 82.55 270)
+		(lib_id "power:GND")
+		(at 142.24 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc40e6ef-974e-4ca9-b3dd-f0f848c534d5")
-		(property "Reference" "D1"
-			(at 90.17 81.2799 90)
+		(fields_autoplaced yes)
+		(uuid "c7bc6e5b-361c-4fbe-a630-a056f64387e8")
+		(property "Reference" "#PWR0126"
+			(at 142.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8c28978-3b0b-4487-8cf3-787159cc78e5")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f6a1cf-b824-442f-a07c-634ebe1c1c4a")
+		(property "Reference" "C37"
+			(at 171.45 132.7149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,17 +5838,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SR502 (HandSoldered)"
-			(at 77.216 95.504 90)
+		(property "Value" "22uF (C45783)"
+			(at 171.45 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.508 0.508)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal"
-			(at 87.63 82.55 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 168.6052 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +5857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 82.55 0)
+			(at 167.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,26 +5865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 87.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 82.55 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,32 +5875,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "c8b90a6b-1798-4646-aa06-f9578cb08a15")
+			(uuid "dd9241b5-396f-4494-9572-9f704e840188")
 		)
 		(pin "1"
-			(uuid "41af228a-9a20-46c4-b4a0-60e53d135e55")
+			(uuid "8244ddd9-a907-42f3-ba74-7269d8e93bcf")
 		)
 		(instances
-			(project ""
+			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "D1")
+					(reference "C37")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 69.85 0)
+		(lib_id "Device:C")
+		(at 243.84 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe501f44-3518-47c5-ba3f-1e5525ca129f")
-		(property "Reference" "TP3"
-			(at 101.6 65.2779 0)
+		(uuid "c9643ae9-210d-4c7a-b110-245da517e2ac")
+		(property "Reference" "C43"
+			(at 247.65 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,17 +5907,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 101.6 67.8179 0)
+		(property "Value" "4.7u low esr (C1779)"
+			(at 246.888 87.376 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 69.85 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 244.8052 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +5926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 69.85 0)
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,8 +5934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 99.06 69.85 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,12 +5944,759 @@
 			)
 		)
 		(pin "1"
-			(uuid "a82232ea-5a90-4858-9ec2-c20479ea93e8")
+			(uuid "038fd7c2-84cc-44a5-a0a4-d0199c93bc96")
+		)
+		(pin "2"
+			(uuid "412f312a-d3ed-4427-827e-0215535ca073")
 		)
 		(instances
 			(project "STM32 - BLDC Driver"
 				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
-					(reference "TP3")
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 166.37 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d5b06c-b614-4809-8b06-c5b9e896d017")
+		(property "Reference" "#PWR097"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 170.18 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa46ef4-2cf1-4a81-ac9d-6ce0992bb759")
+		)
+		(instances
+			(project ""
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 121.92 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9773c2c-158a-437b-8095-1414b9e4bbe3")
+		(property "Reference" "L4"
+			(at 121.412 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15uH (C216196)"
+			(at 128.524 72.39 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 121.92 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77bdac90-0b44-4356-b13b-d9e8e58f4dc4")
+		)
+		(pin "2"
+			(uuid "6aab8fe6-de30-4a32-bbc4-d4aefce92e8b")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da188e1b-cc69-41c2-b769-c88bfbf9fb85")
+		(property "Reference" "C41"
+			(at 55.626 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF 63V (C7471891)"
+			(at 46.99 21.844 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 52.3748 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74562faf-8f35-4aad-a8b2-721b1a1e10a2")
+		)
+		(pin "2"
+			(uuid "77e680f4-4c81-4b26-b8e8-7f88cc90fe16")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db19866b-b876-45d1-bd64-9dd967808e98")
+		(property "Reference" "#PWR0120"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1f6c294-f251-4cba-b61d-31da3be08884")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0f3576-c068-4573-9d54-0336de50519e")
+		(property "Reference" "#PWR0125"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb6560d2-8025-4c33-a13f-7a8da31d645e")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4086fa-8e60-43c0-96fc-3651c67ad985")
+		(property "Reference" "C75"
+			(at 151.13 132.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF (C45783)"
+			(at 151.13 134.62 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 148.2852 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51bfd9ed-2bee-4511-8d47-fc360bd51071")
+		)
+		(pin "1"
+			(uuid "1e9be45d-6d37-4bcc-a73d-20f8cbf81050")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfc9f966-3a2a-4c4e-855b-9a63aece3b19")
+		(property "Reference" "#PWR0123"
+			(at 78.74 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e612c2ba-7e9f-4684-b0d5-b22bcf639d99")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 52.07 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e288585e-244c-4177-a032-574091f4fa4d")
+		(property "Reference" "#PWR093"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVDD"
+			(at 48.26 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7d65c5-f1e4-47a1-8c8d-815e89602ec0")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e29a12b9-22b4-490a-b3d7-d31001b98866")
+		(property "Reference" "#PWR0107"
+			(at 124.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be8be704-96b2-4394-bea8-9bfb8f6cbf91")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e543a10f-69e2-4634-a294-3c7d5ab8c7ec")
+		(property "Reference" "C39"
+			(at 160.02 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF (C45783)"
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 157.1752 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c4c3fc2-98a5-42d3-9589-38aaa6cb7440")
+		)
+		(pin "1"
+			(uuid "b7889bb2-6b2a-456c-b8c1-202630423378")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebe5709e-9b45-4d85-8771-a2f16a66f2b9")
+		(property "Reference" "#PWR079"
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB_3V3"
+			(at 214.63 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39c897e6-2cc6-46ce-9a37-dc690ec6cf1d")
+		)
+		(instances
+			(project "STM32 - BLDC Driver"
+				(path "/af401572-9e69-4105-be6c-dc0e059c4c83/8487c7be-b64e-4b28-9c87-ed0f8baa3838"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)

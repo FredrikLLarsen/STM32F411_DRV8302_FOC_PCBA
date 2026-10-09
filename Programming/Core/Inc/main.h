@@ -79,8 +79,6 @@ void Error_Handler(void);
 #define PVDDSENSE_GPIO_Port GPIOA
 #define HALLZ_TIM3CH3_Pin GPIO_PIN_0
 #define HALLZ_TIM3CH3_GPIO_Port GPIOB
-#define MOT_NTC_1_Pin GPIO_PIN_1
-#define MOT_NTC_1_GPIO_Port GPIOB
 #define nFault___GPIO_INPUT_Pin GPIO_PIN_2
 #define nFault___GPIO_INPUT_GPIO_Port GPIOB
 #define INL_A_TIM1_CH1N_Pin GPIO_PIN_13
@@ -97,10 +95,10 @@ void Error_Handler(void);
 #define INH_C_TIM1_CH3_GPIO_Port GPIOA
 #define QUAD_Z_EXTI15_Pin GPIO_PIN_15
 #define QUAD_Z_EXTI15_GPIO_Port GPIOA
-#define HALL_A_TIM3CH1_Pin GPIO_PIN_4
-#define HALL_A_TIM3CH1_GPIO_Port GPIOB
-#define HALL_B_TIM3CH2_Pin GPIO_PIN_5
-#define HALL_B_TIM3CH2_GPIO_Port GPIOB
+#define HALL_B_TIM3CH1_Pin GPIO_PIN_4
+#define HALL_B_TIM3CH1_GPIO_Port GPIOB
+#define HALL_A_TIM3CH2_Pin GPIO_PIN_5
+#define HALL_A_TIM3CH2_GPIO_Port GPIOB
 #define DC_CAL_GPIO_OUTPUT_Pin GPIO_PIN_8
 #define DC_CAL_GPIO_OUTPUT_GPIO_Port GPIOB
 #define DRV_M_PWM_GPIO_OUTPUT_Pin GPIO_PIN_9
